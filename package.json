@@ -2,11 +2,12 @@
   "name": "exotic-collection",
   "version": "0.1.0",
   "private": true,
-"homepage":"https://akhil2204.github.io/Find-Robo",
+  "homepage": "https://akhil2204.github.io/Find-Robo",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -16,8 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"yarnbuild",
-    "deploy":"gh-pages -d build"
+    "predeploy": "yarnbuild",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
